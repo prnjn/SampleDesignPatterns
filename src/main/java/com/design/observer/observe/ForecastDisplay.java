@@ -38,7 +38,5 @@ public class ForecastDisplay implements Observer , DisplayElement{
 			 System.out.println("Get ready to be screwed by very hot and humid climate");
 		 }
 		 System.out.println("--------------------------------------------------");
-		 
 	}
-
 }

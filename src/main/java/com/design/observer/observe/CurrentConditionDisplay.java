@@ -13,7 +13,7 @@ public class CurrentConditionDisplay implements Observer, DisplayElement{
 	// the constructor is passed the weatherData object (the subject)
 	// and we use it to register the display as observer
 	public CurrentConditionDisplay(Subject weatherData) {
-		this.weatherData = weatherData; // making a local copy as we might want to unregister as observer later
+		this.weatherData = weatherData; // making a local copy as we might want to unregister as observer later.
 		weatherData.registerObserver(this);
 	}
 	

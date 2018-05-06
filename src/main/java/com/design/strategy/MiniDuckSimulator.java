@@ -10,6 +10,7 @@ import com.design.strategy.quack_algorithms.MuteQuack;
 import com.design.strategy.quack_algorithms.Squeak;
 
 public class MiniDuckSimulator {
+	
 	public static void main(String args[]) {
 		
 		Duck mallardDuck = new MallardDuck();

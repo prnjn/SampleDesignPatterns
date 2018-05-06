@@ -7,7 +7,7 @@ import com.design.strategy.quack_algorithms.Quack;
 public class ModelDuck extends Duck {
 
 	public ModelDuck() {
-		flybehaviour = new FlyNoWay(); // model duck starts life grounded.. without a way to fly
+		flybehaviour = new FlyNoWay(); // model duck starts life grounded... without a way to fly
 		quackBehaviour = new Quack();
 	}
 	
